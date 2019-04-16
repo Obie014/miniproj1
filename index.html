@@ -8,4 +8,24 @@
 		<h1>Welcome to my website ha ha ha</h1>
 	</body>
 	
+	<script>
+	function sleephours(sh, age, r)
+	{
+		if((sh < 8 && age > 40) || (sh < 6 && age <= 40))
+		{
+			document.write("sleep deprived");
+		}
+		else 
+		{
+			document.write("Healthy");
+		}
+		
+		if(r.toLowerCase() == "america")
+		{
+			alert("87% of highschool students in America are sleep deprived.");
+		}
+	}
+	
+	sleephours(7, 44, "ameRica"); 
+	</script>
 </html>
